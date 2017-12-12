@@ -1,0 +1,71 @@
+body {
+	font-family: Roboto, serif;
+	background-color: #16D8D9;
+	letter-spacing: 0.15vw;
+}
+
+p {
+	text-align: center;
+}
+
+#win, #lose, #player-score-container, #random-number-container, #instruction-container, #wins-container, #losses-container{
+	display: block;
+	border: 1px solid black;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+	text-align: center;
+	background: url("../images/nice_snow_@2X.png");
+}
+
+#crystals {
+	display: block;
+	border: 1px solid black;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+	text-align: center;
+	background-color: white;
+}
+
+#header {
+	border: 1px solid black;
+	text-align: center;
+	padding-right: 2vw;
+	padding-left: 2vw;
+	background: url("../images/nice_snow_@2X.png");
+}
+
+#game-title {
+	font-size: 5vw;
+	padding: 3vw;
+}
+#instructions-header, #win, #lose{
+	text-align: center;
+}
+
+ #random-number-container, #wins-container {
+ 	margin-right: 14.71vw;
+ }
+
+ #win, #lose {
+ 	height: 23.5vw;
+ 	padding-top: 2vw;
+ }
+
+ #win-message, #lose-message {
+ 	font-size: 12vw;
+ }
+
+ #win-sub-message, #lose-sub-message {
+ 	font-size: 3vw;
+ }
+
+ .subtitle {
+ 	font-size: 3.5vw;
+ }
+
+.numbers {
+	font-size: 3vw;
+	font-weight: bold;
+}
+
+
